@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Annie+Use+your+Telescope:400|Antonio:700|Poppins:700|Lato:400|Oxanium:500,600");
 .App {
   height: 100vh;
-  background-color: #250352;
+  background: #FFA5A5;
   overflow: auto;
   text-align: center;
 }
@@ -29,7 +30,31 @@
   color: white;
 }
 
-.sub-header {
+
+
+.pop-up-title{position: absolute;
+  width: 322px;
+  height: 107px;
+  left: 703px;
+  top: 451px;
+  
+  font-family: "Permanent Marker";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 105px;
+  line-height: 136px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 5px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+
+
+
+
+  .sub-header {
   margin-top: -10px;
   font-size: 1.1rem;
   font-family: "Permanent Marker", cursive;
@@ -58,7 +83,7 @@
 }
 
 .connect-wallet-button {
-  background-color: #360477;
+  background: #FFC8C8;
   background-size: 200% 200%;
   font-family: "Permanent Marker", cursive;
   position: relative;
@@ -68,7 +93,7 @@
 }
 
 .disconnect-wallet-button {
-  background-color: #360477;
+  background-color: #FCC2C2;
   position: relative;
   font-family: "Permanent Marker", cursive;
   font-size: 0.9rem;
@@ -86,7 +111,7 @@
 }
 
 .submit-gif-button {
-  background-color: #360477;
+  background: #FDC2C2;
   background-size: 200% 200%;
   margin-left: 10px;
   font-family: "Permanent Marker", cursive;
@@ -110,7 +135,7 @@
   position: relative;
   justify-self: center;
   align-self: center;
-  background-color: #360477;
+  background: #FFA5A5;
   padding: 15px;
   border-radius: 15px;
 }
@@ -157,9 +182,18 @@
   color: #ffffff;
 }
 
+
 .phantom-image {
   width: 25px;
   height: 25px;
+}
+
+.Sign-in-page{
+  position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFA5A5;
 }
 
 .moon {
@@ -1594,6 +1628,7 @@
     512px 784px 0 #4a4039, 496px 792px 0 #4a4039, 504px 792px 0 #4a4039;
 }
 
+
 .bounce {
   -moz-animation: bounce 5s infinite;
   -webkit-animation: bounce 5s infinite;
@@ -1649,3 +1684,20 @@
     transform: scale(0.5) translateY(-15px);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

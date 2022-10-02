@@ -173,10 +173,13 @@ const App = () => {
      >
        SIGN IN
      </button>
-     <p className="header">Scene Portal</p>
-     <p className="sub-header">Your favorite scenes, on the blockchain</p>
+
+     <p className="header">Photo Pop-up</p>
+     <p className="sub-header">Next up: Bogota, Colombia</p>
      <div className="moon" />
-     <div className="kiki" />
+      <div className="kiki" />
+ 
+    
    </div>
  );
 
@@ -195,7 +198,7 @@ const App = () => {
    else {
      return (
        <div className="connected-container">
-         <p className="connected-header">SCENE PORTAL</p>
+         <p className="connected-header">Photo pop-up</p>
          <button
            className="cta-button disconnect-wallet-button"
            onClick={disconnectWallet}
@@ -211,7 +214,7 @@ const App = () => {
          >
            <input
              type="text"
-             placeholder="post your favorite film/tv scene"
+             placeholder="Post your photography"
              value={inputValue}
              onChange={onInputChange}
            />
